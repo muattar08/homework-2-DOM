@@ -1,0 +1,144 @@
+/* active-button {
+    border: none;
+    color: white;
+    background-color: blue;
+} */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+.container {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+img{
+    max-width: 100%;
+}
+
+.about {
+    text-align: center;
+}
+
+.about h1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.about p {
+    display: block;
+    margin-top: 24px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+.ipad {
+    margin-top: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 54px;
+}
+
+.ipad .item h2{
+font-weight: 700;
+font-size: 48px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+color: #000000;
+}
+
+.ipad .item a{
+font-weight: 700;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0%;
+text-decoration: none;
+color: #0071E3;
+}
+
+.ipad .item p{
+    margin-top: 48px;
+font-weight: 700;
+font-size: 48px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #000000;
+}
+.for_buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 11px;
+}
+
+.for_buttons button {
+    margin-top: 69px;
+    width: 155px;
+    height: 42px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.btn1 {
+    background-color: #0071E3;
+    color: white;
+}
+
+.btn2 {
+    background-color: #CFE7FF;
+    color: #797979;
+}
+
+.pricec{
+    display: block;
+    gap: 7px;
+    width: 321px;
+    margin: 39px auto;
+}
+
+.pricec .item{
+    width: 100%;
+    height: 57px;
+    border: 2px solid #CFE7FF;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 7px;
+}
+
+.item .memory{
+font-weight: 600;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #000000;
+}
+
+.item .price{
+font-weight: 600;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: right;
+color: #000000;
+}
